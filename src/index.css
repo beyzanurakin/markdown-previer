@@ -9,7 +9,7 @@ body {
   overflow: hidden;
   font-family: 'Space Mono', monospace;
   color: #4a4a4a;
-  background-color: #ffcd38;
+  background-color: #94b49f;
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -36,7 +36,8 @@ header {
   margin: 20px;
   text-align: center;
   box-shadow: 10px 10px #646464;
-  background-color: #ffeeb4;
+  background-color: #377d71;
+  font-size: xx-large;
   cursor: pointer;
   transition: box-shadow 0.2s ease-out;
 }
@@ -63,14 +64,16 @@ header {
 }
 .input {
   border-color: transparent;
-  border-radius: var(--radius);
+
   font-size: 1.2rem;
   line-height: 2;
-  box-shadow: var(--dark-shadow);
+  box-shadow: #cee5d0;
   min-height: 30vh;
+  background-color: #dfe8cc;
 }
 .input,
 .result {
+  border-radius: 1rem;
   padding: 1rem 2rem;
 }
 /* For Preview */

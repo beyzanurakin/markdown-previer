@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaQuestionCircle } from 'react-icons/fa'
 import { useDispatch } from 'react-redux'
 import { showHelp } from '../redux/textSlice'
 
@@ -12,7 +11,7 @@ function HelpButton() {
       //className={`help-button ${isShowingHelp && 'active'}`}
       className='help-button'
     >
-      <FaQuestionCircle />
+      ?
     </div>
   )
 }
