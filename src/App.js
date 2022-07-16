@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import HelpButton from './components/HelpButton'
+import PlainText from './components/PlainText'
+import PreviewText from './components/PreviewText'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <main>
+      <header>
+        <h1 className='app-title'>Markdown Previewer</h1>
+        <HelpButton />
       </header>
-    </div>
-  );
+      <section className='markdown'>
+        <PlainText />
+        <PreviewText />
+      </section>
+    </main>
+  )
 }
 
-export default App;
+export default App
